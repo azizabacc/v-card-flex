@@ -1,0 +1,92 @@
+.body{
+    box-sizing: border-box;
+    margin:0;
+}
+.v-card{
+	display:flex;
+    flex-direction: row;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+	width: 50vw;
+    background-color: rgb(184, 178, 178);
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+}
+.logo{ background-color: whitesmoke;
+    border-radius: 5px 50px;
+    margin-right: auto;}
+.logo img{
+    width: 100px;
+    height: min-content;
+   
+}
+.contact{
+    text-align: center;
+}
+.middle{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+}
+.photo{
+    height: 80%;
+    width: auto;
+}
+.border{
+    background-color: rgb(184, 178, 178); 
+    height: 100vh;
+    width: 150px;
+}
+.right{
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    height: 100vh;
+    padding-left: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.desc-title{
+    padding-right: 60vh;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-bottom: 5vh;
+}
+.buttons{
+    display: flex;
+}
+.buttons a{
+    border: solid 2px rgb(15, 15, 15);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: #0f0f0f;
+    box-shadow: 5px 10px 8px 10px #0f0f0f;
+    /* margin-left: 30vh; */
+  
+  }
+  .services ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+  .services ul li{
+    margin-bottom: 3vh;
+  }
+  .site p{
+    font-style: italic;
+    text-align: center;
+
+}
