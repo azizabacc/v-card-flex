@@ -1,6 +1,7 @@
 .body{
     box-sizing: border-box;
     margin:0;
+    padding: 0;
 }
 .v-card{
 	display:flex;
@@ -53,7 +54,7 @@
     align-items: center;
 }
 .desc-title{
-    padding-right: 60vh;
+    padding-right: 30vh;
 }
 .social{
     display: flex;
@@ -76,6 +77,12 @@
     box-shadow: 5px 10px 8px 10px #0f0f0f;
     /* margin-left: 30vh; */
   
+  }
+  .buttons :first-child {
+    padding-right: 2Opx;
+  }
+  .buttons :last-child {
+    padding-left: 20px;
   }
   .services ul{
     display: flex;
