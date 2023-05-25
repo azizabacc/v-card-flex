@@ -1,0 +1,86 @@
+@media only screen and (max-width: 600px) {
+    .body{
+        box-sizing: border-box;
+        margin:0;
+        padding: 0;
+        
+    }
+
+    .v-card {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left {
+        
+        width: 100vw;
+        height :80vh;
+   
+    }
+    .middle {
+        height: auto;
+        width: 100vw;
+        display: flex;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+    }
+        .photo {
+            height: auto;
+            width: 80%;
+        }
+        .border {
+            background-color: rgb(184, 178, 178);
+            height: 5vh;
+            width: 50vw;
+        }
+    .right {
+        width: 100vw;
+        height: auto;
+        padding: 0;
+        padding-bottom: 0;
+    }
+    .desc-title {padding-right: 0;}
+    .desc-title h1{
+        width: max-content;
+    } 
+    .desc-title h2{
+        text-align: center;
+        width: 204px;
+    }
+    .social {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-bottom: 5vh;
+        padding-right: 30px;
+    }
+    .services ul{
+        padding-left: 0px;
+   
+    }
+    .services ul li{
+        width: 80vw;
+
+    }
+    .services p{
+       
+    }
+    .site p{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: small;
+        width: 80vw;
+        
+    }
+    .border {
+        background-color: black;
+        height: 10vh;
+        width: 50vw;
+    }
+    }
+    
+   
+
+
+
+    
